@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB811B6629E5EA8C0046568C /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB811B6529E5EA8C0046568C /* DataModels.swift */; };
 		CBB8482029E4914800F0C7AC /* VideoPlayerDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB8481F29E4914800F0C7AC /* VideoPlayerDemoApp.swift */; };
 		CBB8482229E4914800F0C7AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB8482129E4914800F0C7AC /* ContentView.swift */; };
 		CBB8482429E4914900F0C7AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB8482329E4914900F0C7AC /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB811B6529E5EA8C0046568C /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
 		CBB8481C29E4914800F0C7AC /* VideoPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB8481F29E4914800F0C7AC /* VideoPlayerDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerDemoApp.swift; sourceTree = "<group>"; };
 		CBB8482129E4914800F0C7AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				CBB8482D29E49CA700F0C7AC /* Components */,
 				CBB8482329E4914900F0C7AC /* Assets.xcassets */,
 				CBB8482529E4914900F0C7AC /* Preview Content */,
+				CB811B6529E5EA8C0046568C /* DataModels.swift */,
 			);
 			path = VideoPlayerDemo;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB811B6629E5EA8C0046568C /* DataModels.swift in Sources */,
 				CBB8482229E4914800F0C7AC /* ContentView.swift in Sources */,
 				CBB8483B29E4A9D500F0C7AC /* VideoView.swift in Sources */,
 				CBB8483429E49E4400F0C7AC /* VideoCard.swift in Sources */,
